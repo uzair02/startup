@@ -1,0 +1,46 @@
+body,
+html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Monoton', cursive;
+        background: url(../images/4.1%20header.jpg.jpg) no-repeat center center fixed; 
+  -wbkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container{
+    align-content: center;
+height: 100%;
+    width: 50%;
+}
+h1{
+    font-size: 2.5em;
+    color: #e2dbdb;
+}
+hr{
+    border-color: chocolate;
+    border-width: 2.5px;
+    max-width: 75px;
+}
+
+.buffer{
+    height: 13em;
+}
+.btn{
+    font-weight: 500;
+    border-radius: 200px;
+}
+.btn-primary{
+  background-color: chocolate;
+    border-color: chocolate;
+}
+.btn-primary:hover{
+    background-color: coral;
+    border-color: coral;
+    border-width: 5px;
+}
+.btn-my{
+    padding: 1em 2em;
+    
+}
